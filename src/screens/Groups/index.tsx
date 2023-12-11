@@ -1,18 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native';
+import * as S from './styles';
 
 export function Groups() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <S.Container>
+      <S.Title>Open up App.tsx to start working on your app!</S.Title>
+    </S.Container>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
